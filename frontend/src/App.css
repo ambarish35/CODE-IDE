@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #0d0c0c;
+  color: #fff;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.inputBox {
+  width: 100%;
+  color: #fff;
+  border-radius: 5px;
+}
