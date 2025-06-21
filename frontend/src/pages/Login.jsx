@@ -14,8 +14,8 @@ const Signup = () => {
     return (
         <>
             <div className="w-screen h-screen flex items-center justify-between">
-                <div className="w-1/2 h-full flex flex-col justify-between items-center py-16">
-                    <img className='w-[300px]' src={logo} />
+                <div className="w-1/2 h-full flex flex-col items-center py-16">
+                    <img className='w-[300px] my-14' src={logo} />
                     <form action="" onSubmit={submitForm} className="mb-36">
                         <div className='inputBox w-[450px]'>
                             <input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder='Email' className='input bg-[#141414] w-full mt-4 px-4 py-3 rounded-md' />

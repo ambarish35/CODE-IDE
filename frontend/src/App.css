@@ -17,7 +17,35 @@ html {
 }
 
 .inputBox {
-  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #141414;
   color: #fff;
   border-radius: 5px;
+}
+
+.inputBox input {
+  width: 100%;
+  flex: 1;
+  padding: 11px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+}
+
+.btnBlue {
+  background-color: #00aeef;
+  color: #fff;
+  padding: 9px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btnBlue:hover {
+  background-color: #0086b3;
 }
